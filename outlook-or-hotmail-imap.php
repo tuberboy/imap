@@ -3,6 +3,7 @@ set_time_limit(0);
 
 // IMAP configuration
 // $hostname = '{imap-mail.outlook.com:993/imap/ssl/debug}INBOX'; // also works it
+// $hostname = '{outlook.office365.com:993/imap/ssl/novalidate-cert}'; // also works it
 $hostname = '{outlook.office365.com:993/imap/ssl}INBOX'; // IMAP server and mailbox
 $username = ''; // Email username or full email
 $password = ''; // Email password
